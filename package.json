@@ -1,0 +1,25 @@
+{
+  "name": "easynvest-front-end-teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "jest": {
+    "setupFiles": [
+      "jest-localstorage-mock"
+    ]
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "live-server src/"
+  },
+  "dependencies": {
+    "sass": "^1.10.3"
+  },
+  "author": "Nathalia Pinheiro Mesquita",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.4.2",
+    "jest-localstorage-mock": "^2.2.0",
+    "live-server": "^1.2.0"
+  }
+}
